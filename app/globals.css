@@ -24,3 +24,31 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  color: green;
+  font-size: 40px;
+}
+
+.navbar {
+  display: flex;
+  top: 0;
+  position: sticky;
+  margin: 0;
+  background-color: burlywood;
+  padding: 20px;
+  justify-content: flex-end; /* aligns items to the right */
+  padding-right: 20px;
+
+}
+
+.header {
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header:hover {
+  text-decoration: underline;
+}
