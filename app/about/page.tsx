@@ -5,12 +5,24 @@ export default function Home() {
       <nav className="navbar">
         <Link href="/" className="header"> Home</Link>
         <Link href="/about" className="header"> About</Link>
-        <Link href="/contacts" className="header"> Contacts</Link>
+        <Link href="/projects" className="header"> Projects</Link>
       </nav>
       <div className="p-12">
-        <h1>The About Page</h1>
-      < p> Hello I am Kayla Maldonado a senior at UCSD</p>
+        <h1>Welcome to the About page</h1>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/kayla-maldonado/" target="_blank" rel="noopener noreferrer">
+              Follow Me on LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://kayla-maldonado-2025.webflow.io/" target="_blank" rel="noopener noreferrer">
+              View my portfolio here
+            </a>
+          </li>
+        </ul>
       </div>
+        
       </main>
     )
   }

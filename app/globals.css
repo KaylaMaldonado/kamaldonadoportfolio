@@ -35,7 +35,7 @@ h1 {
   top: 0;
   position: sticky;
   margin: 0;
-  background-color: burlywood;
+  background-color: rgb(6, 55, 23);
   padding: 20px;
   justify-content: flex-end; /* aligns items to the right */
   padding-right: 20px;
@@ -44,7 +44,7 @@ h1 {
 
 .header {
   margin-left: 20px;
-  color: black;
+  color: rgb(246, 242, 216);
   text-decoration: none;
   font-size: 20px;
 }
